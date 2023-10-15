@@ -12,11 +12,12 @@ final class WelcomeViewController: UIViewController {
    
     @IBOutlet weak var greetingUser: UILabel!
     
-    var userName: String!
+    var user: User!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        greetingUser.text = "Welcome, \(userName ?? "none")!"
+        
+        greetingUser.text = "Welcome, \(user.login)!"
     }
     
 

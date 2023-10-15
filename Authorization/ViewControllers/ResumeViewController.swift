@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ResumeViewController: UIViewController {
+final class ResumeViewController: UIViewController {
     
     @IBOutlet weak var profilePhoto: UIImageView!
     
@@ -17,18 +17,18 @@ class ResumeViewController: UIViewController {
     @IBOutlet weak var departmentLabel: UILabel!
     @IBOutlet weak var jobTitleLabel: UILabel!
     
-    var person: User!
+    var user: User!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        profilePhoto.image = UIImage(named: person.person.picture)
+        profilePhoto.image = UIImage(named: user.person.picture)
 
-        nameLabel.text = person.person.name
-        surnameLabel.text = person.person.surname
-        companyLabel.text = person.person.company
-        departmentLabel.text = person.person.department
-        jobTitleLabel.text = person.person.jobtitle
+        nameLabel.text = user.person.name
+        surnameLabel.text = user.person.surname
+        companyLabel.text = user.person.company
+        departmentLabel.text = user.person.department
+        jobTitleLabel.text = user.person.jobtitle
     }
     
     override func viewDidLayoutSubviews() {
@@ -37,8 +37,8 @@ class ResumeViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let thirdVS = segue.destination as? BioViewController else {return}
-        thirdVS.person = person
-        thirdVS.title = "\(person.person.name) \(person.person.surname) Bio"
-        thirdVS.view.backgroundColor = .lightGray
+        thirdVS.user = user
+        thirdVS.title = "\(user.person.name) \(user.person.surname) Bio"
+
         }
 }

@@ -248,7 +248,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="CZh-VX-7nb"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemGray4Color"/>
                         <constraints>
                             <constraint firstItem="CEQ-Pg-Ytz" firstAttribute="leading" secondItem="CZh-VX-7nb" secondAttribute="leading" constant="20" id="1SN-vh-OMa"/>
                             <constraint firstItem="CEQ-Pg-Ytz" firstAttribute="top" secondItem="aIX-KZ-rSL" secondAttribute="bottom" constant="52" id="3Af-cb-GkK">
@@ -292,14 +292,14 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5gi-tu-WMj">
                                 <rect key="frame" x="20" y="106" width="350" height="284.33333333333331"/>
-                                <mutableString key="text">thjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsf</mutableString>
+                                <string key="text">thjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsfyjathjkjgsf</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="NTV-go-IqF"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemGray4Color"/>
                         <constraints>
                             <constraint firstItem="5gi-tu-WMj" firstAttribute="top" secondItem="NTV-go-IqF" secondAttribute="top" constant="10" id="M2C-sA-zcD"/>
                             <constraint firstItem="5gi-tu-WMj" firstAttribute="leading" secondItem="NTV-go-IqF" secondAttribute="leading" constant="20" id="YXY-GF-HEb"/>
@@ -357,10 +357,10 @@
     <resources>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <systemColor name="linkColor">
-            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
